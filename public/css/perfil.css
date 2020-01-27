@@ -1,0 +1,176 @@
+body{
+  background-image: url("../fotosComunes/woodsfondo.jpg");
+}
+
+#botonesperfil.btn {
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+
+#perfil.nav-tabs{
+  border-bottom: 2px solid gold;
+
+}
+
+#botonesperfil.btn:active, #botonesperfil.btn:hover  {
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#botonesperfil.btn:focus{
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,1);
+
+}
+
+#perfil .nav > li > a:hover{
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,1);
+
+}
+
+.navbar#perfil{
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,1);
+  text-align: end;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.navbar-brand#perfil {
+  color: rgba(255,255,255,1);
+  padding: 0px;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: xx-large;
+  font-weight: 700;
+
+}
+
+button#search.btn {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,0.8);
+
+}
+
+button#search.btn:hover{
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.form-inline#perfil{
+padding-right: 10px;
+
+}
+
+.row#perfilrowproductos{
+  background-color: #dddddd;
+  margin: 0 auto;
+  padding-top: 0px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+#perfilrowproductos div.col-sm-3 {
+padding: 0px;
+text-align: -webkit-center;
+
+}
+
+#perfilrowproductos h5{
+font-weight: 700;
+
+}
+
+div.row#rowcompras{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 0px;
+margin: 0 auto;
+border-radius: 5px;
+background-color: rgba(255, 255, 255, 0.8)
+}
+
+#detalleproducto>a>h4{
+  color:black;
+}
+
+#detalleproducto>a:focus{
+text-decoration: none;
+
+}
+
+#detalleproducto>a>h4:focus, #detalleproducto>a>h4:hover {
+  color:rgba(255, 193, 0,1);
+  text-decoration:none;
+}
+
+
+div.row#rowcompras .col-sm-3 {
+padding: 0px;
+
+}
+
+div.row#rowcompras .btn {
+border-radius: 0px;
+
+}
+
+div.row#rowcompras .btn{
+  color: white;
+  background-color: black;
+
+}
+
+div.row#rowcompras .btn:focus,
+div.row#rowcompras .btn:hover{
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div#order.row h5{
+text-transform: uppercase;
+color: rgba(255, 255, 255, 1);
+text-align: -webkit-center;
+
+}
+
+div#order.row{
+padding-top: 10px;
+background-color: rgba(0, 0, 0, 0.9);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+}
+
+div#rowproducto.row div.col-sm-4 {
+  text-align: -webkit-center;
+  align-self: center;
+
+}
+
+div#detalleproducto{
+padding: 0px;
+margin: 0px;
+
+}
+
+div#ordertarjeta.row h5{
+text-transform: uppercase;
+color: rgba(255, 255, 255, 1);
+text-align: -webkit-center;
+
+}
+
+div#ordertarjeta.row{
+padding-top: 10px;
+background-color: rgba(0, 0, 0, 0.9);
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+
+}

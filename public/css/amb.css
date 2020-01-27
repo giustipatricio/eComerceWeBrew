@@ -1,0 +1,143 @@
+.vermas  {
+  font-size: 20px;
+}
+
+table {
+
+}
+
+
+th{
+  background-color: rgba(0,0,0,1);
+  color: white;
+
+}
+
+td{
+  background-color: rgba(255,255,255,0.75);
+}
+
+div.cuadro {
+  border-radius: 20px;
+  color:white;
+  background-color: black;
+  padding-top:2vw ;
+  text-align: -webkit-center;
+  margin-left: 10%;
+  padding-bottom:2vw;
+  width: 80%;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 25px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titulo h2 {
+    font-size: 30px;
+    padding-left: 8px;
+    color:rgba(255, 193, 0,1);
+}
+
+div#colcarga{
+  border-radius: 20px;
+  background-color: rgba(100, 100, 100, 0.19);
+  color:white;
+  text-align: -webkit-center;
+  width: 80%;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 25px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+select#alc, select#origin,select#stock,select#style,select#segment, select#ibu, select#brand, select#ishigh  {
+  border-radius: 20px;
+  background-color: rgba(0,0,0, 0.19);
+  color:white;
+  text-align-last: center;
+  width: 80%;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 25px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input, .inputfile {
+  border-radius: 20px;
+  background-color: rgba(0,0,0, 0.19);
+  color:white;
+  text-align-last: center;
+  width: 80%;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 25px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+h4 {
+  color:rgba(255, 193, 0,1);
+}
+
+body{
+  background-image: url("../fotosComunes/webrewwallsigup.jpg");
+  width: 100%;
+}
+
+
+#fafas{
+  color: black;
+  width: 100%;
+
+}
+
+#fafas:hover, #fafas:focus  {
+  color:rgba(255, 193, 0,1);
+}
+
+#botones{
+  color: black;
+  background-color: white;
+  width: 100%;
+
+}
+
+#botones:hover, #botones:focus  {
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.popup-wraper {
+  background-color: rgba(0, 0, 0,0.5);
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: none
+}
+
+.popup{
+  text-transform: uppercase;
+  font-family: arial;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+
+}
+
+.popup a{
+background-color: rgba(255, 00, 00,1);
+color: white;
+text-decoration: none;
+padding: 6px 14px;
+
+}
+
+.popup a.popup-close{
+background-color: rgba(229, 229, 229,1);
+color: black;
+text-decoration: none;
+padding: 6px 14px;
+
+}
+
+.popup a:hover, .popup a:focus  {
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

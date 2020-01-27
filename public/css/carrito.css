@@ -1,0 +1,158 @@
+
+body {
+  background-image: url("../fotosComunes/woodsfondo.jpg")
+}
+
+svg#carrito {
+  color: rgba(0,0,0,1);
+
+}
+
+.nav-tabs>li>a {
+  background-color: darkgrey;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
+  background-color: black;
+  color: rgba(255,255,255,1);
+
+}
+
+.nav-tabs>li>a:focus{
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,1);
+
+}
+
+div.row#rowcompras{
+background-color: rgba(255,255,255,0.8);
+}
+
+div.row#rowcompras .btn {
+  background-color: rgba(0,0,0,1);
+  color: rgba(255,255,255,1);
+  margin-top: 1px;
+  border-radius: 7px;
+}
+
+
+#carrito .nav > li > a:hover{
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,1);
+
+}
+
+.navbar#carrito{
+  background-color: rgba(255,255,255,0.8);
+  color: rgba(0,0,0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  text-align: end;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+}
+
+.navbar-brand#carrito {
+  color: rgba(0,0,0,1);
+  padding: 0px;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: xx-large;
+  font-weight: 700;
+
+}
+
+.form-inline#carrito{
+  padding-right: 10px;
+  color: rgba(0,0,0,1);
+
+}
+
+.row#carritorowproductos{
+  background-color: rgba(0,0,0,0.8);
+  margin: 0 auto;
+  padding-top: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  color: white;
+  }
+
+
+
+div.row#rowcompras  {
+  padding: 0px;
+  text-align: -webkit-center;
+  align-items: center;
+
+}
+
+#carritorowproductos h5{
+  font-weight: 700;
+
+}
+
+div.row#rowcompras{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+div.row#rowcompras .col-sm-3 {
+  padding: 0px;
+
+}
+
+
+
+div.row#rowcompras .btn.focus,
+div.row#rowcompras .btn:focus,
+div.row#rowcompras .btn:hover{
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+div.row .col-sm-12#formadepago{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,1);
+  padding: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+div.container#compra{
+  text-align-last: right
+
+}
+
+div.container#compra .btn#compra.focus, div.container#compra .btn#compra:hover{
+  color: white;
+  background-color: black;
+}
+
+
+#compra button#boton.btn{
+  color: black;
+  background-color: #dddddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#compra button#boton.btn:focus,#compra button#boton.btn:hover{
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tarjetas{
+ place-items: center;
+
+}

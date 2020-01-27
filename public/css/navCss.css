@@ -1,0 +1,110 @@
+nav#navbar {
+   border-width: 0px;
+   -webkit-box-shadow: 0px 0px;
+   box-shadow: 0px 0px;
+   background-color: rgba(0,0,0,1);
+   position: fixed;
+   color: rgba(0,0,0,0,1);
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1030;
+ }
+
+.nav>li>a{
+  color: ghostwhite;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.nav>li>a:hover{
+  color: rgba(255, 193, 0,0.8);
+  text-decoration: none;
+
+}
+
+.nav>li>a:focus{
+  color: rgba(255, 193, 0,0.8);
+  text-decoration: none;
+
+}
+
+.navbar-toggle{
+  background-color: rgba(190, 177, 133,0.15);
+}
+
+.navbar-toggle .icon-bar{
+  background-color: rgba(0,0,0,1);
+}
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  color: rgba(255, 193, 0,0.8);
+  text-decoration: none;
+
+
+}
+
+.navbar-nav>li>.dropdown-menu.black{
+  background-color: rgba(0,0,0,1);
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu{
+  background-color: darkgrey;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  color: rgba(255, 193, 0,0.8);
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.dropdown-menu>li>a{
+  background-color: rgba(190, 177, 133,0.0);
+  color: ghostwhite;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+  list-style: none;
+}
+
+
+li #market {
+  width:3%;
+  background-color: rgba(190, 177, 133,0.0);
+}
+
+.svg-inline--fa {
+  color: ghostwhite;
+}
+
+.svg-inline--fa:hover,.svg-inline--fa:focus {
+  color: rgba(255, 193, 0,0.8);
+}
+
+
+img.miniLogoWeBrew {
+  width: 150px;
+  left: 3%;
+}
+
+img.logoWeBrew {
+    margin-left: -150px;
+    position: absolute;
+    width: 300px;
+    margin-top: 50px;
+    left: 50%;
+}
+
+img.fondonav {
+    width: 100%;
+    height: fit-content;
+    padding: 0px;
+    margin: 0 auto;
+    border-bottom: 3vw;
+}

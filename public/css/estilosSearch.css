@@ -1,0 +1,388 @@
+body{
+  background-image: url("../fotosComunes/woodsfondo.jpg");
+
+  width: 100%;
+}
+
+#cardbotonesbajoimagen{
+background-color: black;
+padding: 0px;
+}
+
+
+#titulobusqueda{
+margin-top: 10px
+color: rgba(0, 0, 0,1);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+place-content: center;
+height: 98vh;
+width: 100%;
+
+}
+
+
+#fototitulo{
+display: block;
+position: relative;
+}
+
+#busquedas {
+  color: rgba(255, 255, 255,.9);
+  font-family: 'Finger Paint', cursive;
+  text-transform: uppercase;
+  font-size: 16vw;
+  display: block;
+  position: absolute;
+  left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+}
+
+
+#botonesdesplegables {
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#botonesdesplegables:hover, #botonesdesplegables:focus  {
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-transform: uppercase;
+}
+
+
+div#stylefoto{
+background-color: rgba(255, 255, 255, 0.9);
+padding
+}
+
+#espacionav{
+  padding:0px;
+  padding-top: 52px;
+  margin:0px;
+}
+
+img#fototitulo {
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    margin: 0 auto;
+
+}
+
+div#botonesbajofoto.row{
+margin: 0px;
+padding: 0px;
+
+}
+
+div#botonesbajofoto.row>div.col-sm{
+  padding:0px;
+  margin:0px;
+}
+
+.accordion>.card .card-header {
+padding: 0px;
+
+}
+
+div#botonesbajofoto.row>div.col-sm>button, button#botones.btn {
+  border-radius: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+}
+
+
+#botonesagregar{
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  text-transform: uppercase;:
+
+}
+
+#botonesagregar:hover, #botonesagregar:focus  {
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-transform: uppercase;:
+
+}
+
+#botones{
+  color: white;
+  background-color: black;
+  width: 100%;
+
+}
+
+#botones:hover, #botones:focus  {
+  color: black;
+  background-color: rgba(255, 193, 0,1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.fa-calculator:hover, .fa-calculator:focus{
+  color: black;
+}
+
+
+
+#producto{
+  padding-bottom: 10px;
+  border-bottom: solid 1.5px grey;
+}
+
+#star{
+  color: rgba(255, 193, 0,1);;
+
+}
+
+ul#detalleproducto>li{
+padding-bottom: 5px;
+padding-top: 5px;
+border-bottom: solid 1px grey;
+
+}
+
+
+#rowProducto{
+  background-color:  white;
+  color: black;
+  list-style: none;
+
+}
+#rowtitulo{
+  background-color: white;
+  color:black;
+  border-bottom: solid black ;
+  border-width: 2px;
+  text-align:left;
+}
+
+ul#listacompraproducto{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#rowdetalle{
+  background-color:  white;
+  color: grey;
+  list-style: none;
+}
+
+#listacompraproducto{
+  color: black;
+  list-style: none;
+}
+
+#rutaproductos {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#rowProducto.row{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+#fotoproducto {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 350px;
+
+}
+#listaproductosybotones.col-sm-4 {
+  background-color:#dddddd  ;
+  margin: 0 auto;
+  padding: 0px;
+
+}
+
+
+.Titulo{
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.divfloat{
+  float: right;
+}
+
+.productoPrincipal {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  width: 200%;
+  height: auto;
+}
+
+.vistaProductos {
+  width: 60%;
+}
+
+
+.listadocompra{
+padding-top: 10px;
+
+}
+
+.listaproducto{
+  list-style: none;
+}
+
+.section-title span {
+  color: #454545;
+  padding: 5px 15px 5px 0;
+  text-transform: uppercase;
+  width: auto;
+
+  }
+
+  .navproductos>li>a{
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+
+
+  .card-body{
+    background-color: darkgray;
+  }
+
+.productoBuscado {
+width: 100%;
+}
+
+#productoventa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  z-index: 2;
+
+}
+
+#productotexto {
+
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  z-index: 1;
+  position: relative;
+  display: block;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+#productotexto:hover {
+  color: rgba(255, 193, 0,1);
+    -webkit-transform: 0px 0px 2;
+  -moz-transform: 0px 0px 2;
+  -ms-transform: 0px 0px 2;
+  -o-transform: 0px 0px 2;
+  transform: 0px 0px 2;
+  transform: translate(0px, 0px) scale(2);
+  -webkit-transform: translate(0px, 0px) scale(2);
+  -moz-transform: translate(0px, 0px) scale(2);
+  -o-transform: translate(0px, 0px) scale(2);
+  -ms-transform: translate(0px, 0px) scale(2);
+  z-index: 1;
+}
+#productoventa:hover {
+  -webkit-transform: 0px -10px 0.5;
+  -moz-transform: 0px -10px 0.5;
+  -ms-transform: 0px -10px 0.5;
+  -o-transform: 0px -10px 0.5;
+  transform: 0px -10px 0.5;
+  transform: translate(0px, -30px) scale(0.1);
+  -webkit-transform: translate(0px, -30px) scale(0.80);
+  -moz-transform: translate(0px, -30px) scale(0.80);
+  -o-transform: translate(0px, -30px) scale(0.80);
+  -ms-transform: translate(0px, -30px) scale(0.80);
+
+  z-index: -1;
+}
+
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 20px;
+  color: gray;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 20px;
+  color: gray;
+}
+
+#linkproductos{
+  text-decoration: none;
+  color: black;
+
+}
+#prodcontext:hover, #prodcontext:focus {
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8), 0 6px 20px 0 rgba(0,0,0,0.8);
+
+
+}

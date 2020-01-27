@@ -1,0 +1,52 @@
+.row#rowfooter.black {
+  background-color: black;
+  text-align: -webkit-center;
+  color:antiquewhite;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row#rowfooter {
+  background-color: darkgrey;
+  text-align: -webkit-center;
+  color:antiquewhite;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row#rowfooter h5{
+  font-size: 1.7vw;
+  padding-top: 10px;
+  color:white;
+  text-align: -webkit-center;
+  list-style-type: none;
+  font-variant-caps: small-caps;
+}
+
+.row#rowfooter ul#ulfooter {
+  color:white;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0 auto;
+  margin-bottom: 3vw;
+}
+
+.row#rowfooter ul#ulfooter li a  {
+  color:white;
+  padding: 0px;
+  margin: 0 auto;
+  text-decoration: none;
+
+}
+
+.row#rowfooter ul#ulfooter li a:focus, .row#rowfooter ul#ulfooter li a:hover  {
+
+  padding: 0px;
+  margin: 0 auto;
+  color: rgba(255, 193, 0,0.8);
+  text-decoration: none;
+}
